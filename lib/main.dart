@@ -122,36 +122,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
               }).toList(),
             ),
 
-            // Row(
-            //   children: [
-            //     Expanded(
-            //       child: ElevatedButton(
-            //         child: const Text('English'),
-            //         onPressed: () {
-            //           _localization.translate('en');
-            //         },
-            //       ),
-            //     ),
-            //     const SizedBox(width: 2.0),
-            //     Expanded(
-            //       child: ElevatedButton(
-            //         child: const Text('മലയാളം'),
-            //         onPressed: () {
-            //           _localization.translate('ml');
-            //         },
-            //       ),
-            //     ),
-            //     const SizedBox(width: 8.0),
-            //     Expanded(
-            //       child: ElevatedButton(
-            //         child: const Text('ഹിന്ദി'),
-            //         onPressed: () {
-            //           _localization.translate('hi', save: false);
-            //         },
-            //       ),
-            //     ),
-            //   ],
-            // ),
 
             const SizedBox(height: 16.0),
             ItemWidget(
@@ -205,3 +175,5 @@ class ItemWidget extends StatelessWidget {
     );
   }
 }
+
+// mutiple language
